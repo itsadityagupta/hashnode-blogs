@@ -64,6 +64,8 @@ For a detailed description of the schema and examples, please visit the [officia
     
 * **Programming Language:** [Python](https://www.python.org/)
     
+* **Data Visualization:** [Google Data Studio](https://datastudio.withgoogle.com/)
+    
 * **Extras:** [Cloud Build](https://cloud.google.com/build), [Cloud Run](https://cloud.google.com/run)
     
 
