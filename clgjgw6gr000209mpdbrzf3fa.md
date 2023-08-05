@@ -50,6 +50,8 @@ Here's a list of files available:
 
 For a detailed description of the schema and examples, please visit the [official documentation](https://www.yelp.com/dataset/documentation/main) website.
 
+> **Edit:** The above data along with BigQuery tables and the Google Studio dashboard is now deleted. So you may have to download the data directly from the official website.
+
 # What is the tech stack?
 
 * **Data Storage:** [Google Cloud Storage (GCS)](https://cloud.google.com/storage)
@@ -437,6 +439,8 @@ And here it gets completed:
 
 I have used Google Data Studio to create a dashboard on top of the DBT models. You can either create your dashboard or simply view my dashboard here:
 
+> **EDIT:** Please refer to the screenshot below as the dashboard is removed.
+
 %[https://lookerstudio.google.com/reporting/03290c4d-e20a-4e61-9978-f4e0ae893ff5] 
 
 Here's a screenshot of my dashboard in case you're having any trouble viewing it:
@@ -468,7 +472,7 @@ So better clean it up as soon as you're done checking out the project. Here are 
 
 (Generally, Composer's GCS bucket doesn't get deleted with Terraform destroy and has to be manually deleted.)
 
-Then go to **Cloud Build, Cloud Run, Artifact Registry and Secret Manager** to delete everything present there.
+Then go to **Cloud Build, Cloud Run, Artifact Registry, and Secret Manager** to delete everything present there.
 
 That's it.
 
@@ -491,7 +495,7 @@ Since now you got to build the data pipeline (and destroy it 😂), here are a f
 
 This was my capstone project for the Data Engineering Zoomcamp.
 
-I hope you like it. If you have any questions about the project, face any problems while following along or have a suggestion for me, feel free to comment or drop me a DM on [Twitter](https://twitter.com/itsadityagupta) or [Linkedin](https://www.linkedin.com/in/itsadityagupta/).
+I hope you like it. If you have any questions about the project, face any problems while following along, or have a suggestion for me, feel free to comment or drop me a DM on [Twitter](https://twitter.com/itsadityagupta) or [Linkedin](https://www.linkedin.com/in/itsadityagupta/).
 
 ![COVID updates: Victoria to reach 70 per cent first doses target today,  restrictions ease in 12 NSW regions - ABC News](https://news-legacy-vendors.abc-prod.net.au/scribble/2971157/5356cc15-7d8f-4309-8330-89dd39bca58f.gif align="center")
 
